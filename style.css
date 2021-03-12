@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background-image: url(images/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 115px 0 0 0;
+}
+
+.tab-wrapper {
+    max-width: 540px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 33px 6px rgba(0,0,0,0.29);
+}
+
+.main-block.is-visible {
+    display: flex;
+}
+
+.main-block {
+    display: none;
+    justify-content: space-between;
+    background-color: #212534;
+    padding: 50px 30px;
+    color: #FDFDFD;
+}
+
+.main-block__rating-circle {
+    width: 57px;
+    height: 57px;
+    background-color: green;
+    display: inline-block;
+}
+
+.main-block__info-block {
+    margin: 10px 0 0 14px;
+}
+
+.main-block__title {
+    font-size: 37px;    
+    width: 100%;
+}
+
+.main-block__subtitle {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.main-block__info {
+    font-size: 13px;
+    color: #B7BACD;
+    padding: 51px 0 0 0;
+    line-height: 20px;
+}
+
+.main-block__top-part-wrapper {
+    display: flex;
+    justify-content: space-between;
+}   
+
+.main-block__button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #13E28D;
+    padding: 13px 26px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.main-block__button:hover {
+    color: #fff;
+    background-color: #67f1b8;
+    cursor: pointer;
+}
+
+.main-block__button:active {
+    background-color: #adfdda;
+    color: #139c63;
+}
+
+.main-block__discount {
+    font-size: 10px;
+    color: #FEDC3F;
+}
+
+.main-block__price {
+    font-size: 27px;
+    display: inline-block;
+}
+
+.main-block__price-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block__bot-part-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0 0 0;
+}
+
+.main-block__rating {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px 0 17px;
+}
+
+.menu {
+    background-color: #2B3040;
+    display: flex;
+}
+
+.menu__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 3);
+    text-transform: uppercase;
+    padding: 27px 0;
+    border-bottom: 2px solid #2B3040;
+}
+
+.menu__icon {
+    width: 15px;
+}
+
+.menu__item-text {
+    color: #B7BACD;
+    margin: 10px 0 0 0;
+}
+
+.menu__item.is-active {
+    color: #FBFBFB;
+    border-bottom: 2px solid #FBFBFB;
+}
